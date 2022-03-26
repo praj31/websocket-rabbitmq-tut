@@ -1,0 +1,13 @@
+{
+  "version": "0.0.1",
+  "name": "websocket-rabbitmq-tut-frontend",
+  "description": "frontend client for websocket",
+  "main": "index.html",
+  "scripts": {
+    "dev": "snowpack dev"
+  },
+  "dependencies": {
+    "snowpack": "^3.8.8",
+    "socket.io-client": "^4.4.1"
+  }
+}

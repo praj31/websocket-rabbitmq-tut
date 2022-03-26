@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  width: 600px;
+  min-height: 80vh;
+  max-height: 80vh;
+  overflow-wrap: normal;
+  overflow-y: auto;
+  border: 1px solid black;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0.8rem;
+}
+.controller {
+  width: 600px;
+  display: flex;
+  align-items: center;
+}
+#message {
+  flex: 3;
+  outline: none;
+  margin-right: 0.5rem;
+}
+#btn-send {
+  flex: 1;
+  margin-left: 0.5rem;
+  background: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+#message,
+#btn-send {
+  padding: 6px;
+  border: 1px solid black;
+}
